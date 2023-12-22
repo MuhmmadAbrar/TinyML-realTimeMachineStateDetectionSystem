@@ -7,7 +7,7 @@ The ESP32 Sensor Fusion Project is designed to monitor and analyze machine statu
 
 ### Key Features:
 
-1. **TensorFlow Integration:** Utilizes TensorFlow Lite Micro to run a machine learning model on the ESP32 for sensor fusion and analysis.
+1. **TensorFlow Integration:** Utilizes TensorFlow Lite Micro in the form of EloquentTinyML.h library to run a machine learning model on the ESP32 for sensor fusion and analysis.
 
 2. **LED Indicators:** Employs two LEDs, a green LED indicating normal machine operation and a red LED signaling recovery or abnormal conditions.
 
@@ -27,6 +27,15 @@ The ESP32 Sensor Fusion Project is designed to monitor and analyze machine statu
 - Edge AI in Industrial IoT: Implement machine learning at the edge for real-time decision-making.
 
 This project aims to showcase the capabilities of the ESP32 and TensorFlow Lite Micro in the context of sensor fusion, enabling users to build intelligent and responsive systems for various applications.
+
+# Hardware and Software Stack
+
+- `ESP32` : The Microcontoller board used is ESP32-Wrover Module.
+- LEDs and Wires
+- `Tensorflow` : Used for model creation.
+- `tinymlgen` : A python library that is used to convert the generated model file into a hex array.
+- `EloquentTinyML.h` : An arduino library that is used for interfacing the ESP32 with the hex array generated previously.
+
 
 # Working Demo
 https://github.com/MuhmmadAbrar/TinyML-realTimeMachineStateDetectionSystem/assets/88892675/9b5b2ecf-0419-4bcb-8cc6-26d3c93b34f3
