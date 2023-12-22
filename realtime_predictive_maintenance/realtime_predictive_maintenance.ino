@@ -2,9 +2,10 @@
 #include <eloquent_tinyml/tensorflow.h>
 #include "generated_code.h"
 
-#define N_INPUTS 50
-#define N_OUTPUTS 2
-#define TENSOR_ARENA_SIZE 16*2048
+#define N_INPUTS 50 //Number of input neurons - Change this according to your model.
+#define N_OUTPUTS 2 //Number of output neurons - Change this according to your model.
+
+#define TENSOR_ARENA_SIZE 16*2048 //This value is dependent on the const int model_data_len variable stored in generated_code.h
 
 Eloquent::TinyML::TensorFlow::TensorFlow<N_INPUTS, N_OUTPUTS, TENSOR_ARENA_SIZE> tf;
 
