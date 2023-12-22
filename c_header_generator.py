@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tinymlgen import port
 
-model = tf.keras.models.load_model('./sensor.h5')
+model = tf.keras.models.load_model('YOUR MODEL')
 
 c_code = port(model, optimize=False)
 
