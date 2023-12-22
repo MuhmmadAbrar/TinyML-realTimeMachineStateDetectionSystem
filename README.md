@@ -1,13 +1,6 @@
 # TinyML-realTimeMachineStateDetectionSystem
  A project that uses an ESP32 with TensorFlow Lite Micro for sensor fusion. The project analyzes input values, performs sensor fusion, and indicates the machine's status using LEDs.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Hardware](#hardware)
-- [Software](#software)
-- [Usage](#usage)
-
 ## Overview
 
 The ESP32 Sensor Fusion Project is designed to monitor and analyze machine status using sensor data processed by TensorFlow Lite Micro on the ESP32 platform. The project combines edge computing capabilities with machine learning to provide real-time insights into the health of a machine.
